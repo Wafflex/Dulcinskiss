@@ -1,0 +1,37 @@
+Productos e inventario es un unico menu-- inventario de materia prima e inventario de productos
+Control de distribucion de envios, detalles de vehiculos etc.
+Proveedores.
+
+productos x venta
+
+metodo de pago en venta.
+recepcion
+
+compras, productos x compra, proveedorex2
+
+cantidad de productos vendidos
+
+PRO VE E DO RES <<<<
+
+Modificar tipos de envio para empresa mas grande.
+
+
+VENTANAS:
+1.0 INVENTARIO
+1.1 MATERIA PRIMA
+1.2 PRODUCTOS
+1.3 HERRAIENTAS
+
+2.0 VENTAS
+2.1 CLIENTES
+2.2 SOLICITUDES
+2.3 COBROS - FACTURAS
+2.4 DEVOLUCIONES
+
+3.0 COMPRAS
+
+
+
+
+
+
