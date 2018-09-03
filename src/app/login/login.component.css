@@ -1,0 +1,33 @@
+
+
+mat-card{
+  text-align: center;
+  max-width: 500px;
+  box-sizing: border-box;
+  margin: auto;
+    width: 50%;
+    border: 0.2px solid black;
+    padding: 10px;
+}
+
+
+
+ /deep/ .mat-tab-label {
+  height: 48px;
+  padding: 0 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  opacity: .6;
+  min-width: 200px !important;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+}
+
+/deep/ .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background-color: #ff4081;
+}
+

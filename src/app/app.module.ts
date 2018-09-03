@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -45,13 +45,17 @@ import {
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InventoryComponent } from './inventory/inventory.component';
+import { AppRoutingModule } from './/app-routing.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    SidenavComponent,
-    NavComponent
+    LoginComponent,
+    NavComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
@@ -91,7 +95,9 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule
+    MatTreeModule,
+    NgbModule.forRoot(),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
