@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {HttpClientModule} from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InventoryComponent } from './inventory/inventory.component';
+import { AppRoutingModule } from './app-routing.module';
 
-
+// Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -45,9 +49,11 @@ import {
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { InventoryComponent } from './inventory/inventory.component';
-import { AppRoutingModule } from './/app-routing.module';
+
+// Servicios 
+
+import { InventoryService } from '../../src/app/inventory/inventory.service';
+
 
 
 @NgModule({
@@ -60,6 +66,7 @@ import { AppRoutingModule } from './/app-routing.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     LayoutModule,
     MatAutocompleteModule,
     MatBadgeModule,
@@ -99,7 +106,9 @@ import { AppRoutingModule } from './/app-routing.module';
     NgbModule.forRoot(),
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [
+    InventoryService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

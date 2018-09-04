@@ -22,14 +22,16 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^2.0.0-alpha.0",
     "@ng-bootstrap/schematics": "^2.0.0-alpha.1",
     "@ngu/carousel": "^1.4.8",
     "angular4-carousel": "^3.1.8",
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
     "core-js": "^2.5.4",
-    "rxjs": "^6.2.2",
-    "zone.js": "~0.8.26",
-    "@ng-bootstrap/ng-bootstrap": "^2.0.0-alpha.0",
-    "bootstrap": "^4.0.0"
+    "ng-toast": "^2.0.0",
+    "rx-observable-update": "^1.0.0",
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
