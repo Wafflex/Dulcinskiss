@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet,View, Text } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 export default class Body extends Component {
   constructor(props) {
@@ -10,18 +10,17 @@ export default class Body extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text> textInComponent </Text>
+      <View style= {styles.body}>
+        <Text>Bodyyyyyy</Text>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-    container:{
+    body:{
         flex: 5,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 })
